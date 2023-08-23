@@ -1,0 +1,51 @@
+body{
+font-family: 'Roboto';
+}
+
+.main {
+    width: 457px;
+    height: 138px;
+    padding: 4px;
+  }
+  .dp {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-right: 14px;
+    object-fit: cover;
+    margin-top: 6px;
+    margin-bottom: auto;
+  }
+  .username {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  .message {
+    font-weight: regular;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .flexi{
+    display: flex;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+    float: left;
+    padding-right: 14px;
+  }
+  .count {
+    font-size: 15px;
+    font-weight: medium;
+    color: #858991;
+    padding-right: 24px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
