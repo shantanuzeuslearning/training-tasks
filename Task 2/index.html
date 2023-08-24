@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="myscripts.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Webpage</title>
+  </head>
+  <body>
+    <h1><center>My first web page</center></h1>
+    <div class="line"></div>
+    <h2>What this is</h2>
+    <p>
+      Welcome to <i>my first webpage</i>. I created this webpage without the
+      assistance of a webpage editor. Just my little text editor and a keen
+      <i><b>UNDERSTANDING OF HTML</b></i>
+    </p>
+    <h2>Why this is</h2>
+    <p>
+      <i>
+        <ul class="list">
+          <li>To learn HTML</li>
+          <li>
+            List element
+            <ol>
+              <li>Home</li>
+              <li>FAQ</li>
+              <li>Contact</li>
+              <li>About</li>
+            </ol>
+          </li>
+          <li>Here I have created ordered and unordered list</li>
+        </ul></i
+      >
+    </p>
+    <h2>ZeusLearning.com</h2>
+    <a
+      class="link"
+      href="https://www.zeuslearning.com/"
+      target="_blank"
+      style="text-decoration: none"
+      >This link will open zeuslearning.com in new tab</a
+    >
+    <h2>On click of the following image navigate to Google.com</h2>
+    <a href="https://www.google.com/" target="_blank"
+      ><img class="google-img" src="images/Google.jpg"
+    /></a>
+    <h3>Some random table</h3>
+    <table>
+      <tr>
+        <th>Row 1,cell 1</th>
+        <th>Row 1,cell 2</th>
+        <th>Row 1,cell 3</th>
+      </tr>
+      <tr>
+        <th>Row 2,cell 1</th>
+        <th>Row 2,cell 2</th>
+        <th>Row 2,cell 3</th>
+      </tr>
+      <tr>
+        <th>Row 3,cell 1</th>
+        <th>Row 3,cell 2</th>
+        <th>Row 3,cell 3</th>
+      </tr>
+      <tr>
+        <th>Row 4,cell 1</th>
+        <th>Row 4,cell 2</th>
+        <th>Row 4,cell 3</th>
+      </tr>
+    </table>
+    <form onsubmit="return validateForm()">
+      <h3><p>Some random form</p></h3>
+      <p><b>Note:</b> It looks the part, but won't do anything.</p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" />
+      <p>Comments:</p>
+      <textarea
+        class="textarea"
+        id="comments"
+        name="comments"
+        placeholder="Your comments"
+      ></textarea>
+      <p>Are you:</p>
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label><br /><br />
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="female">Female</label><br /><br />
+      <input type="submit" value="Submit Query" />
+    </form>
+  </body>
+</html>
