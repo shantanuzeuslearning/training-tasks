@@ -1,0 +1,56 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 1em;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 12px;
+    
+}
+
+.container{
+    
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px auto auto 100px;
+}
+
+.header{
+    grid-column: 1 /-1;
+    background-color: #6850cf;
+
+}
+
+.sidebar{
+    grid-column: 1 / 2;
+    grid-row: 2/4;
+    background: linear-gradient(#37c5be, #1d6b66);
+}
+
+.Content-1{
+    grid-column: 2 / -1;
+    background: linear-gradient(135deg, #6b53d9, #3cdcd9);
+}
+
+.Content-2{
+    grid-column: 2/3;
+    background: linear-gradient(135deg, #6b53d9, #3cdcd9);
+}
+
+
+.Content-3{
+    grid-column: 3/4;
+    background: linear-gradient(135deg, #6b53d9, #3cdcd9);
+}
+
+.footer{
+    grid-column: 1 /-1;
+    background-color: #6850cf;
+}
