@@ -1,0 +1,224 @@
+@font-face {
+    src: url("../Assets/fonts/Quicksand-Bold.ttf");
+    font-family: Corleone-Bold;
+}
+@font-face {
+    src: url("../Assets/fonts/Quicksand-Light.ttf");
+    font-family: Corleone-Light;
+}
+@font-face {
+    src: url("../Assets/fonts/Quicksand-Medium.ttf");
+    font-family: Corleone-Medium;
+}
+@font-face {
+    src: url("../Assets/fonts/Quicksand-Regular.ttf");
+    font-family: Corleone-Regular;
+}
+@font-face {
+    src: url("../Assets/fonts/Quicksand-SemiBold.ttf");
+    font-family: Corleone-SemiBold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Corleone-Regular;
+}
+
+.background--image{
+    background-image: url(../Assets/images/header.png);
+    height: 50px;
+
+}
+
+.header{
+    background: rgba(2, 26, 41, 0.651);
+    display: flex;
+    align-items: center;
+    padding: 4px 20px;
+    height: 50px;
+    border-bottom: 2px solid #3AC7EC;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background: #E0E1E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vl{
+    border-left: 2px solid #C5C6C6;
+    height: 25px;
+    margin: 0px 20px;
+}
+.copyright{
+    color: #616161;
+    word-spacing: 2px;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 660px;
+    border-radius: 3px;
+    border-top: 5px solid #3AC7EC;
+    padding: 10px 35px;
+}
+
+.main-container{
+    min-height: calc(100vh - 50px - 50px - 63px);
+}
+.main{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-2{
+    display: flex;
+    align-items: center;
+    color: #1F7A54;
+}
+
+.title{
+    
+    font-family: Corleone-Bold;
+    font-size: x-large;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px;
+    align-items: center;
+}
+.back{
+    grid-column: 1/2;
+    height: 30px;
+}
+.heading{
+    grid-column: 2/4;
+}
+
+.school{
+    display: flex;
+    margin-top: 20px;
+    font-family: Corleone-SemiBold;
+    
+}
+
+.label-text{
+    margin-right:max(30px);
+}
+
+.radio-container{
+    display:flex;
+    align-items: center;
+}
+.radio-btn{
+    width:20px;
+    height:20px;
+    accent-color: #197f54;
+    margin-right:6px;
+    margin-left: 0;
+}
+
+select{
+    background-image: url(../Assets/icons/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    appearance: none;
+    border:transparent;
+    border-bottom: 2px solid #E0E0E0;
+    width:99%;
+    font-family:Corleone-SemiBold;
+    font-size:medium;
+}
+
+
+
+.label{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-family: Corleone-Light;
+    font-size: 15px;
+}
+
+
+.dist{
+    margin-bottom: 55px;
+}
+
+.cred{
+    width:99%;
+    height: 35px;
+    border: transparent;
+    border-bottom: 2px solid #E0E0E0;
+    font-size:medium;
+    font-family: Corleone-Light;
+    font-weight: bold;
+}
+.eye{
+    margin-left: -7%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.forgot{
+    text-align: end;
+    color: #1F7A54;
+    font-family: Corleone-SemiBold;
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+
+.check{
+    display:flex;
+    margin-bottom:40px;
+}
+    
+.check-btn{
+    width:20px;
+    height:20px;
+    margin-right:7px;
+    accent-color: #197f54;
+}
+
+
+.remember{
+    font-family: Corleone-SemiBold;
+    margin-top: 2px;
+}
+
+  
+.logBtn{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.logIn{
+    width: 55%;
+    height: 45px;
+    color: black;
+    background-color: #3FD28B;
+    font-family: Corleone-SemiBold;
+    border-radius: 3px;
+    border: none;
+    font-size:medium;
+    box-shadow: 3px 3px 12px #bebebe;
+}
+
+#errorMessages {
+    color: red;
+    margin-top: 5px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="background--image">
+      <header class="header">
+        <img class="head-logo" src="../Assets/icons/logo_header.svg" alt="" />
+      </header>
+    </div>
+    <main class="main">
+      <div class="main-container">
+        <div class="container">
+          <form id="formSubmit">
+            <div class="title">
+              <img class="back" src="../Assets/icons/back.svg" alt="" />
+              <p class="heading">Log in with Quantum</p>
+            </div>
+            <div class="school">
+              <div class="radio-container">
+                <input
+                  class="radio-btn"
+                  type="radio"
+                  id="district"
+                  name="school"
+                  value="District"
+                />
+                <label class="label-text" for="district">District</label>
+              </div>
+              <div class="radio-container">
+                <input
+                  class="radio-btn"
+                  type="radio"
+                  id="independent"
+                  name="school"
+                  value="Independent school"
+                />
+                <label class="label-text" for="independent"
+                  >Independent school</label
+                >
+              </div>
+            </div>
+
+            <p class="label">State*</p>
+            <select name="states" id="state">
+              <option value="" disabled selected>Select State</option>
+              <option value="Alabama">Alabama</option>
+              <option value="Alabama2">Alabama2</option>
+              <option value="Alabama3">Alabama3</option>
+            </select>
+
+            <p class="label">District*</p>
+            <select id="districts" name="districts" class="dist">
+              <option value="" disabled selected>Select District</option>
+              <option value="Alabama School District">
+                Alabama School District
+              </option>
+              <option value="Alabama Primary School Distric">
+                Alabama Primary School District
+              </option>
+            </select>
+
+            <input
+              class="cred"
+              id="username"
+              type="text"
+              placeholder="Username/Email ID*"
+            />
+            <p class="forgot">FORGOT USERNAME?</p>
+
+            <input
+              class="cred"
+              id="id_password"
+              type="password"
+              placeholder="Password*"
+            />
+            <img
+              class="eye"
+              src="../Assets/icons/preview.svg"
+              id="togglePassword"
+              alt=""
+              srcset=""
+            />
+            <p class="forgot">FORGOT PASSWORD?</p>
+
+            <div class="check">
+              <input class="check-btn" type="checkbox" id="rem" />
+              <label class="remember" for="rem">Remember Me</label>
+            </div>
+            <div id="errorMessages"></div>
+            <div class="logBtn">
+              <button class="logIn" type="submit">LOG IN</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="content-2">
+        <h4>About</h4>
+        <div class="vl"></div>
+        <h4>Contact Us</h4>
+      </div>
+    </main>
+    <footer class="footer">
+      <img class="footer-logo" src="../Assets/icons/logo_footer.svg" alt="" />
+      <div class="vl"></div>
+      <p class="copyright">
+        Copyright &copy 2020-2021 <strong>Zeus Systems Pvt. Ltd. </strong> All
+        rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
