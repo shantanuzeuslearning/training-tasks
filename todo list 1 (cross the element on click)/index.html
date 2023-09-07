@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Todo List</title>
     <style>
       li {
+        cursor: pointer;
+        text-align: center;
         list-style: none;
         max-width: 200px;
         padding: 8px;
@@ -24,7 +25,8 @@
       <li>play the guitar</li>
       <li>pay the bills</li>
     </ul>
-    <button>add new todo</button>
+    <input type="text" id="newTodo" placeholder="New Task" />
+    <button id="addTodo" disabled>Add Todo</button>
     <script src="app.js"></script>
   </body>
 </html>
